@@ -1,4 +1,12 @@
 #!/bin/sh
+#
+# pptpd installation script on my own CentOS 7 box.
+# inspired by: https://www.digitalocean.com/community/questions/how-to-install-pptp-vpn-on-centos-7 
+# and http://unix.stackexchange.com/questions/150837/redhat-centos-7-firewalld-best-practice-for-pptp-or-l2tp-ipsec-rules
+#
+# Author: 2015 Steve Yang <me@iyyang.com>
+# The script comes with ABSOLUTELY NO WARRANTY.
+
 
 # Install pptpd
 rpm -Uvh http://download.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-1.noarch.rpm
