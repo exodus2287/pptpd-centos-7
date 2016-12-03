@@ -9,7 +9,8 @@
 
 
 # Install pptpd
-rpm -Uvh http://download.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-1.noarch.rpm
+#rpm -Uvh http://download.fedoraproject.org/pub/epel/beta/7/x86_64/epel-release-7-1.noarch.rpm
+rpm -Uvh http://linux.mirrors.es.net/fedora-epel//epel-release-latest-7.noarch.rpm
 yum -y install ppp pptpd
 
 # pptpd settings
